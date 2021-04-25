@@ -24,7 +24,7 @@
 # CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
-FROM registry.hsr.io/public_sim/tmc_wrs_docker:latest
+FROM ghcr.io/gentlebots/tmc_wrs_docker:latest
 
 USER developer
 
