@@ -50,7 +50,7 @@ Usage
 Please input the following commands to clone this repository.
 
 ```sh
-$ git clone --recursive https://github.com/hsr-project/tmc_wrs_docker.git
+$ git clone --recursive https://github.com/gentlebots/tmc_wrs_docker.git
 $ cd tmc_wrs_docker
 ```
 
