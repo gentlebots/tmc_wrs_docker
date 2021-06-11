@@ -39,7 +39,7 @@ services:
       - /tmp/.X11-unix/X0:/tmp/.X11-unix/X0
       - ~/robocup_melodic_ws:/home/developer/robocup_melodic_ws
     networks:
-      - robocup2021-opl_default
+      - simulation-opl-tiago_default
 networks:
-  robocup2021-opl_default:
+  simulation-opl-tiago_default:
     external: true
