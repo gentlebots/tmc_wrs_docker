@@ -28,4 +28,4 @@
 
 docker pull devrt/xserver
 docker pull devrt/ros-devcontainer-vscode:melodic-desktop
-docker pull ghcr.io/gentlebots/tmc_wrs_docker_ros2
+docker pull ghcr.io/gentlebots/tmc_wrs_docker_rc_melodic_and_bridges

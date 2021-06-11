@@ -38,12 +38,14 @@ services:
       interval: "1s"
       retries: 20
   simulator:
-    image: ghcr.io/gentlebots/tmc_wrs_docker_ros2:latest
+    image: ghcr.io/gentlebots/tmc_wrs_docker_rc_melodic_and_bridges:latest
     ipc: host
     security_opt:
       - seccomp:unconfined
     environment:
       - DISPLAY=:0
+    volumes:
+      - ~/robocup_melodic_ws:/home/developer/robocup_melodic_ws
     volumes_from:
       - xserver
     depends_on:
